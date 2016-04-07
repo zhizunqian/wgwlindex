@@ -1,0 +1,804 @@
+body,ul,li{
+	margin: 0;
+	font-family: 微软雅黑;
+	padding: 0;
+	list-style: none;
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+.navbul{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -32px;
+	margin-left: -150px;
+}
+.xiala>div{
+	line-height: 30px;
+	text-align: center;
+}
+.xiala>div>a{
+	color: #000;
+	font-size: 1rem;
+}
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+nav li{
+	color: #000;
+}
+nav .brand-logo{
+	position: absolute;
+	left: 20%;
+}
+nav ul{
+	padding-right: 30px;
+}
+nav .ul1{
+	padding-top: 50px;
+	padding-right: 30px;
+}
+nav .button-collapse{
+	display: none;
+}
+nav{
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+nav ul a {
+	font-size: 1.2rem;
+}
+
+.logo{
+	height:64px;
+}
+.asimg a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: 20;
+}
+.banquan{
+	color: #fff;
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -250px;
+}
+.banquan2 a img{
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	margin-left:-11px ;
+}
+.center{
+	display: block;
+}
+.scenter{
+	display: none;}
+	#fp-nav ul li a span, .fp-slidesNav ul li a span{
+		background: #ccc;
+	}
+	.section:nth-child(1){
+		width:100%;
+		height:100%;
+		background: url(../img/ruanjian.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	.section:nth-child(2){
+		width:100%;
+		height:100%;
+		background: url(../img/erci.jpg) no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.section:nth-child(3){
+		width:100%;
+		height:100%;
+		background: url(../img/weixin.jpg) no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.section:nth-child(4){
+		width:100%;
+		height:100%;
+		background: url(../img/chanpin.jpg) no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.section:nth-child(5){
+		width:100%;
+		height:100%;
+		background: url(../img/ziying.jpg) no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-size:cover;
+	}
+	.section:nth-child(6){
+		width:100%;
+		height:100%;
+		background-color: #333;
+		background-position: center;
+		background-size: cover;
+	}
+	h1{
+		line-height: 50px;
+		margin: 0 auto;
+		font-size: 30px;
+		font-family: 黑体;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 50px;
+		color: #fff;
+	}
+	.ruanjianzi{
+		height: 80px;
+		background:url(../img/ruanjianzi.png) no-repeat center center;
+	}
+	.weixinzi{
+		height: 80px;
+		background:url(../img/weixinzi.png) no-repeat center center;
+	}
+	.ercizi{
+		height: 80px;
+		background:url(../img/ercizi.png) no-repeat center center;
+	}
+	.conzuo1{
+		background: url(../img/t-ruanjian.png) no-repeat;
+	}
+	.conzuo2{
+		background: url(../img/t-erci.png) no-repeat;
+	} 
+	.conzuo3{
+		background: url(../img/t-weixin.png) no-repeat;
+	} 
+	.contentzuo{
+		width: 300px;
+		height: 300px;
+		background-size: 300px 300px;
+		text-align: center;
+		line-height: 300px;
+		color: #000;
+		font-size: 30px;
+		margin: 0 auto;
+		transform: translate3d(-1000px,0,0);
+	}
+	.contentyou{
+		width: 600px;
+		height: 300px;
+		font-size: 24px;
+		line-height: 30px;
+		color:#fff;
+		padding: 30px 10px 0px 10px;
+		transform: translate3d(1000px,0,0);
+	}   
+	.chanpinword{
+		/*color: #fff;*/
+		height: 80px;
+		background: url(../img/anlizi.png) no-repeat center center ;
+		/*margin-top: -10px;*/
+	}
+	.anlizi{
+		height: 80px;
+		background: url(../img/ziyingzi.png) no-repeat center center;
+	}
+	.chanpinbox p{
+		margin-top: 10px;
+	}
+	.chanpins>img{
+		width: 300px;
+		height: 200px;
+	}
+	.zongzhi{
+		margin-top: 10px;
+		padding-top: 50px;
+		text-align: center;
+		height: 240px;
+		background: pink;
+	}
+	/*----------------------------------ziying------------*/
+	.zytu{
+		width: 500px;
+		height: 300px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.zytu1{
+		background:url(../img/41.png) no-repeat center center;
+	}
+	.zytu2{
+		background:url(../img/42.png) no-repeat center center;
+	}
+	.zyword{
+		width: 500px;
+		height: 200px;
+		margin: 0 auto;
+		font-size: 18px;
+		color: #fff;
+	}
+
+	/*0-00000000000000000000000000view*/
+	.view {
+		width: 180px;
+		height: 180px;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+		margin: 0 auto;
+	}
+	#lview{
+		display: block;
+	}
+	#sview{
+		display: none;
+	}
+	#sview .view {
+		width: 290px;
+		height: 120px;
+		margin-bottom: 8px;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+	}
+	.xqcon{
+		position: relative;
+	}
+	.xqcon .row{
+		margin-bottom: 0;
+	}
+	.xqbox{
+		overflow: hidden;
+	}
+	.xq{
+		display: none;
+	}
+	.sxq{
+		overflow: hidden;
+		text-align: center;
+		cursor: default;
+		/*float: left;*/
+	}
+	#sview .view .mask,#sview .view .content {
+		width: 100%;
+		height: 150px;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.view .mask,.view .content {
+		width: 180px;
+		height: 180px;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.view img {
+		display: block;
+		position: relative;
+	}
+	.view-seventh .mask {
+		background:#6699FF;
+		transform: rotate(0deg) scale(1);
+		opacity: 0;
+		transition: all 0.3s ease-out;
+	}
+	.view h5 {
+		text-transform: uppercase;
+		color: #fff;
+		text-align: center;
+		position: relative;
+		font-size: 17px;
+		padding: 10px;
+		background: rgba(0, 0, 0, 0.2);
+		margin: 30px 0 0 0;
+	}
+	#sview .simg {
+		width: 150px;
+		height: 100%;
+		float: left;
+		position: relative;
+	}
+	#sview .sul {
+		width: 120px;
+		height: 100%;
+		line-height: 60px;
+		position: relative;
+		color: #fff;
+		float: left;
+		text-align: center;
+	}
+
+	.view p {
+		font-size: 14px;
+		position: relative;
+		color: #fff;
+		padding: 30px 20px 10px;
+		text-align: center;
+	}
+	.view a.info {
+		display: inline-block;
+		text-decoration: none;
+		padding: 7px 14px;
+		background: rgba(0,0,0,0.2);
+		border: 1px solid rgba(0,0,0,0.2);
+		color: #fff;
+		text-transform: uppercase;
+	} 
+	/*0-00000000000000000000000000view-结束*/
+	/*---------------hover 开始*/
+	.view-seventh img {
+		/*height: 100%;*/
+		transition: all 0.5s ease-out;
+		opacity: 1;
+	}
+	.view-seventh .mask {
+		transform: rotate(0deg) scale(1);
+		opacity: 0;
+		transition: all 0.3s ease-out;
+	}
+	.view-seventh h5 {
+		transform: translateY(-200px);
+		transition: all 0.2s ease-in-out;
+	}
+	.view-seventh p{
+		transform: translateY(-200px);
+		transition: all 0.2s ease-in-out;
+	}
+	.view-seventh a.info{
+		transition: all 0.2s ease-in-out;
+		transform: translateY(-200px);
+
+	}
+	.view a.info:hover {
+		box-shadow: 0 0 5px #000;
+	}
+	.view-seventh:hover img {
+		transform: rotate(720deg) scale(0);
+		opacity: 0;
+	}
+	.view-seventh:hover .mask {
+		opacity: 1;
+		transform: translateY(0px) rotate(0deg);
+		transition-delay: 0.4s;
+	}
+	.view-seventh:hover .simg {
+		transform: translateY(0px);
+		transition-delay: 0.6s;
+	}
+	.view-seventh:hover .sul {
+		transform: translateY(0px);
+		transition-delay: 0.7s;
+	}
+	.view-seventh:hover h5 {
+		transform: translateY(0px);
+		transition-delay: 0.7s;
+	}
+	.view-seventh:hover p {
+		transform: translateY(0px);
+		transition-delay: 0.6s;
+	}
+	.view-seventh:hover a.info {
+		transform: translateY(0px);
+		transition-delay: 0.5s;
+	} 
+	/*---------------hover-结束 */
+
+
+
+	/*--------------------尾部-开始*/
+	.asbg {
+		width: 250px;
+		height: 370px;
+		float: left;
+		position: relative;
+	}
+	.ww{
+		position: relative;
+		overflow: hidden;
+	}
+	.wei{
+		overflow: hidden;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-top: -185px;
+		margin-left: -500px;
+	}
+	.all {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 9;
+	}
+	.borderr {
+		border-right: 1px solid #585669;
+		height: 333px;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.asimg1 {
+		background: url(../img/asimg3.png) no-repeat center;
+	}
+	.asimg2 {
+		background: url(../img/asimg2.png) no-repeat center;
+	}
+	.asimg3 {
+		background: url(../img/asimg1.png) no-repeat center;
+	}
+	.asimg4 {
+		background: url(../img/erweima.jpg) no-repeat center;
+	}
+	.asimg {
+		width: 100%;
+		height: 200px;
+		z-index: 10;
+		position: relative;
+	}
+
+	.astxt {
+		position: relative;
+		width: 100%;
+		height: 145px;
+		color: #fff;
+	}
+
+	.asbg span {
+		display: block;
+	}
+	.a1 {
+		width: 0%;
+		height: 2px;
+		background: #d2faff;
+		position: absolute;
+		left: 50%;
+		margin-left: 0%;
+		bottom: 0;
+		z-index: 10;
+	}
+	.a2 {
+		width: 2px;
+		height: 0%;
+		background: #d2faff;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		z-index: 10;
+	}
+	.a3 {
+		width: 2px;
+		height: 0%;
+		background: #d2faff;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		z-index: 10;
+	}
+	.a4 {
+		width: 0%;
+		height: 2px;
+		background: #d2faff;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 10;
+	}
+	.a5 {
+		width: 0%;
+		height: 2px;
+		background: #d2faff;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 10;
+	}
+	.asbt {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+	.asplay {
+		position: absolute;
+		overflow: hidden;
+		z-index: 2;
+		width: 100%;
+		height: 0px;
+		text-align: center;
+		color: #000;
+		background: #d2faff;
+		line-height: 30px;
+		font-size: 14px;
+	}
+	.asbt h1 {
+		font-size: 25px;
+		line-height: 36px;
+		padding-top: 8px;
+		text-align: center;
+		font-weight: bold;
+	}
+	.asbt h2 {
+		font-size: 16px;
+		line-height: 36px;
+		text-align: center;
+		font-weight: bold;
+	}
+	/*--------------------尾部-结束*/
+
+	/*-------------------------------中屏-响应式-开始*/
+	@media(max-width: 992px){
+		.logo{
+			height:64px;
+		}
+		nav .button-collapse{
+			display: block;
+			padding-left: 20px;
+		}
+		.view-seventh img {
+			height: 100%;
+			margin: 0 auto;
+		}
+		.zyword{
+			width: 600px;
+			height: 200px;
+			margin: 0 auto;
+			font-size: 18px;
+			color: #fff;
+		}
+
+		#sview .view {
+			width: 290px;
+			height: 120px;
+			margin-bottom: 8px;
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+			cursor: default;
+			margin: 0 auto;
+			float: none;
+			margin-bottom: 10px;
+
+		}
+		.view~p{
+			margin: 10px 0;
+		}
+		.chanpins>img{
+			width: 200px;
+			height: 150px;
+		}
+		#sview{
+			overflow: hidden;
+		}
+		#sview .view .mask,#sview .view .content {
+			width: 100%;
+			height: 120px;
+			overflow: hidden;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		nav .brand-logo{
+			position: absolute;
+			left: 50%;
+		}
+		nav .ul1{
+			padding-top: 64px;
+		}
+		.asbg {
+			width: 150px;
+			height: 270px;
+		}
+		.wei{
+			margin-top: -135px;
+			margin-left: -300px;
+		}
+		.borderr {
+			height: 200px;
+		}
+		.asimg1 {
+			background-size:100px 100px; 
+		}
+		.asimg2 {
+			background-size:100px 100px; 
+		}
+		.asimg3 {
+			background-size:100px 100px; 
+		}
+		.asimg4 {
+			background-size:100px 100px; 
+		}
+		.asimg {
+			width: 100%;
+			height: 170px;
+		}
+		.astxt {
+			height: 100px;
+		}
+		.asplay {
+			line-height: 18px;
+			font-size: 12px;
+		}
+		.asbt h1 {
+			font-size: 18px;
+			line-height: 18px;
+			padding-top: 6px;
+		}
+		.asbt h2 {
+			font-size: 12px;
+			line-height: 16px;
+		}
+		.contentzuo{
+			width: 200px;
+			height: 200px;
+			background-size: 200px 200px;
+			line-height: 200px;
+			font-size: 20px;
+		}
+		.contentyou{
+			width: 100%;
+			height: 200px;
+			font-size: 18px;
+			padding-top: 20px;
+			line-height: 20px;
+		}  
+	}
+	@media(max-width: 601px){
+		nav .button-collapse{
+			display: block;
+		}
+		.wei{
+			overflow: hidden;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-top: -200px;
+			margin-left: -150px;
+		}
+		.asbg {
+			width: 150px;
+			height: 180px;
+			float: left;
+			position: relative;
+		}
+		.simg1{
+			background: url(../img/1.jpg) no-repeat center center;
+			background-size: 150px 120px;
+		}
+		.simg2{
+			background: url(../img/21.png) no-repeat center center;
+			background-size: 150px 120px;
+		}
+		.simg3{
+			background: url(../img/31.png) no-repeat center center;
+			background-size: 150px 120px;
+		}
+		.simg4{
+			background: url(../img/41.png) no-repeat center center;
+			background-size: 150px 120px;
+		}
+		.asimg {
+			width: 100%;
+			height: 100px;
+			z-index: 10;
+			position: relative;
+		}
+
+		.astxt {
+			position: relative;
+			width: 100%;
+			height: 100px;
+			color: #fff;
+		}
+		h1{
+			line-height: 30px;
+			font-size:20px;
+			margin-bottom: 10px;
+			margin-top: 10px;
+		}
+		.contentzuo{
+			width: 200px;
+			height: 200px;
+			background-size: 200px 200px;
+		}
+		.contentyou{
+			width: 100%;
+			height: 200px;
+			font-size: 16px;
+			line-height: 20px;
+			padding: 0px 0px 10px 0px;
+		}   
+		.zongzhi{
+			margin-top: 10px;
+			padding-top: 50px;
+			text-align: center;
+			height: 100px;
+			background: pink;
+		}
+		.logo{
+			height:56px;
+		}
+		#lview{
+			display: none;
+		}
+		#sview{
+			display: block;
+		}
+		.banquan{
+			color: #fff;
+			position: absolute;
+			bottom: 50px;
+			left: 80%;
+		}
+		.center{
+			display: none;
+		}
+		.scenter{
+			text-align: center;
+			display: block;
+			line-height: 18px;
+		}
+		.asimg1 {
+			background: url(../img/sasimg3.png) no-repeat center;
+		}
+		.asimg2 {
+			background: url(../img/sasimg2.png) no-repeat center;
+		}
+		.asimg3 {
+			background: url(../img/sasimg1.png) no-repeat center;
+		}
+		.ruanjianzi{
+			height: 50px;
+			background:url(../img/sruanjianzi.png) no-repeat center center;
+		}
+		.weixinzi{
+			height: 50px;
+			background:url(../img/sweixinzi.png) no-repeat center center;
+		}
+		.ercizi{
+			height: 50px;
+			background:url(../img/sercizi.png) no-repeat center center;
+		}
+		.anlizi{
+			height: 50px;
+			background:url(../img/sziyingzi.png) no-repeat center center;
+		}
+		.zytu{
+			width: 250px;
+			height: 150px;
+			margin: 0 auto;
+			margin-bottom: 10px;
+		}
+		.zyword{
+			width: 300px;
+			height: auto;
+			margin: 0 auto;
+			font-size: 12px;
+			color: #fff;
+		}
+		.zytu1{
+		background:url(../img/s41.png) no-repeat center center;
+	}
+	.zytu2{
+		background:url(../img/s42.png) no-repeat center center;
+	}
+	nav .button-collapse i {
+    font-size: 1.7rem;
+}
+	}
+
